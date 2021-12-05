@@ -60,7 +60,7 @@
              <td>{{ $insurance->first_name}}</td>
             <td>{{ $insurance->last_name}}</td>
             <td>{{ $insurance->gender }}</td>
-            <td>{{ $insurance->mobile_no}}</td>
+            <td>{{ $insurance->mobile}}</td>
             <td>{{ $insurance->email_id}}</td>
             <td>{{ $insurance->customer_no}}</td>
             <td>{{ $insurance->status}}</td>

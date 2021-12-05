@@ -61,7 +61,7 @@
         <div class="col-xs-12 col-md-12 col-sm-12">
             <div class="form-group">
                 <strong>Mobile No </strong>
-                <input type="number" name="mobile" value="{{ $insurance->mobile_no }}" class"form-control" placeholder="Enter Mobile No">
+                <input type="number" name="mobile" value="{{ $insurance->mobile }}" class"form-control" placeholder="Enter Mobile No">
             </div>
         </div>    
 

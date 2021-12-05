@@ -61,7 +61,7 @@ class HomeController extends Controller
 
     public function update(Request $request, Insurance $insurance)
     {
-        echo 1; 
+        
         $request->validate([
         'first_name' => 'required',
         'last_name' => 'required',
@@ -70,7 +70,8 @@ class HomeController extends Controller
         'email_id' => 'required',
          'customer_no' => 'required',
         'health_advisor' => 'required'
-        ]);
+        ]); 
+        
         $insurance->update($request->all());
 
         return redirect()->route('insurance.index')
